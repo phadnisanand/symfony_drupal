@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/routing": "^4.4",
+        "symfony/http-foundation": "^4.4",
+        "symfony/yaml": "^4.4",
+        "symfony/config": "^4.4"
+    },
+    "autoload": {
+         "psr-4": {
+             "EventDispatchers\\": "src"
+         },
+         "classmap": ["src"]
+     }
+}

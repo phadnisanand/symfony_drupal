@@ -1,0 +1,11 @@
+{
+    "require": {
+        "symfony/event-dispatcher": "^4.4"
+    },
+    "autoload": {
+         "psr-4": {
+             "EventDispatchers\\": "src"
+         },
+         "classmap": ["src"]
+     }
+}
